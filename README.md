@@ -1,5 +1,5 @@
 # Encripter
-https://travis-ci.org/ciberfox/Encripter.svg
+![alt text](https://travis-ci.org/ciberfox/Encripter.svg)
 #
 Semplice software per cifrare e decifrare dati basato sull'algoritmo Mersenne Twister
 
