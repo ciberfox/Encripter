@@ -1,6 +1,13 @@
 // Discription - Encryption program to take a list of numbers and use them as a an encryption key to encrypt/decrypt a file.
 
-#include < cstdlib > #include < iostream > #include < stdlib.h > #include < fstream > #include < sstream > #include < string > #include < cmath > #include "mersennetwister.h"
+#include <cstdlib>
+#include <iostream>
+#include <stdlib.h>
+#include <fstream>
+#include <sstream>
+#include <string>
+#include <cmath>
+#include "mersennetwister.h"
 
 using namespace std;
 
