@@ -1,4 +1,4 @@
-// Discription - Encryption program to take a list of numbers and use them as a an encryption key to encrypt/decrypt a file.
+// Descrizione - Software di genereazione chiavi
 
 #include <cstdlib>
 #include <iostream>
@@ -19,9 +19,9 @@ int main (int argc, char *argv[])
      long long count3 = 0;
      long long howmany = 0;
      long long p1;
-     cout << "Inserisci la tua fonte." << "\n";
+     cout << "Inserisci chiave numerica." << "\n";
      cin >> x;
-     cout << "Inserisci quanti numeri vuoi." << "\n";
+     cout << "Numero di chiavi da generare." << "\n";
      cin >> howmany;
      MTRand mtrand1( x );
      ofstream myfile1;
@@ -31,7 +31,7 @@ int main (int argc, char *argv[])
           cout << "ERROR LINE 26\n";
           myfile1.close();
           cin >> sleep;
-          exit(1); // terminate with error
+          exit(1); // Controllo d'errore
      }
      count3 = -1;
      do
