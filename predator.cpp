@@ -1,12 +1,12 @@
 // Descrizione - Programma di criptazione
 
-#include < cstdlib > 
-#include < iostream > 
-#include < stdlib.h > 
-#include < fstream > 
-#include < sstream > 
-#include < string > 
-#include < cmath > 
+#include <cstdlib>
+#include <iostream>
+#include <stdlib.h>
+#include <fstream>
+#include <sstream>
+#include <string>
+#include <cmath>
 #include "mersennetwister.h"
 
 // Dichiarazione Variabili
