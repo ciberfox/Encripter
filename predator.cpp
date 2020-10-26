@@ -20,7 +20,7 @@ int main(int argc, char * argv[]) {
 
   string file2;
   string keyfile;
-  // string file3;
+  // string file3; // usato per il doppio files
   string answer;
   ifstream myfile1;
   long long numcount;
